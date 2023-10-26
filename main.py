@@ -12,6 +12,7 @@ def encode(password):
     for value in password:
         encoded_value = str((int(value) + 3) % 10)
         encoded_password += encoded_value
+    print("Your password has been encoded and stored!")
     return encoded_password
 
 
